@@ -1,0 +1,54 @@
+.homebg {
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+    height: 100vh; 
+    width: auto;
+    background-color: #F2D064;
+    background-image: url("/public/okk.png");
+}
+
+.backg {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh; 
+    background-color: #F2D064;
+    background-image: url("/public/okk.png");
+}
+
+.innerdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFFDD6;
+    height: 100vh;
+    width: 750px;
+    border-radius: 20px;
+}
+
+.ininnerdiv {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.acadzen {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #8C7111;
+    font-size: 55px;
+}
+
+.homeacadzen {
+    flex-grow: 1;
+    /* text-align: center; */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #8C7111;
+    font-size: 55px;
+}
